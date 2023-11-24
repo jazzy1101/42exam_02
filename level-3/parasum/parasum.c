@@ -3,19 +3,20 @@
 int	main(int argc, char **argv)
 {
 	int	i = 0;
-	
-	if (argc == 2)
+	char	c;
+
+	if (argc > 1)
 	{
-		while (argv[1][i])
+		while (argv[i])
 			i++;
 		i--;
-		while (i >= 0)
-		{
-			write(1, &argv[1][i], 1);
-			i--;
-		}
+		c = i + '0';
+		write(1, &c, 1);
+		return 0;
 	}
+	else
+		write(1, "0", 1);
 	write(1, "\n", 1);
 	return 0;
 }
-			
+
