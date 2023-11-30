@@ -36,6 +36,7 @@ int	*ft_range(int start, int end)
 		return 0;
 	return res;		
 }
+/*
 #include <stdio.h>
 
 int	main()
@@ -48,4 +49,4 @@ int	main()
 		i++;
 	}
 	return 0;
-}
+}*/

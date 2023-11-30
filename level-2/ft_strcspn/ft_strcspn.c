@@ -18,6 +18,7 @@ size_t	ft_strcspn(const char *s, const char *reject)
 	}
 	return i;
 }
+/*
 #include <string.h>
 int	main()
 {
@@ -26,4 +27,4 @@ int	main()
 	printf("%zu vs %zu\n", ft_strcspn("ab34c", "abcd"), strcspn("ab34c", "abcd"));
 	printf("%zu vs %zu\n", ft_strcspn("cbd.", "abcd"), strcspn("cbd.", "abcd"));
 	printf("%zu vs %zu\n", ft_strcspn("46832abc", "abcd"), strcspn("46832abc", "abcd"));
-}
+}*/
